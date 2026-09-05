@@ -34,7 +34,7 @@ make run        # Runs research -> strategy -> copy pipeline
 The pipeline operates strictly as a sequential, file-based pipeline. Every agent reads its predecessor's output artifact directly from the workspace and commits a structured deliverable directly to the workspace root.
 
 ```text
-swarm-agency/
+marketing-agency/
 ├── skills/                           # Atomic, standardized Agent Skills
 │   ├── brief-generator/
 │   │   └── SKILL.md
